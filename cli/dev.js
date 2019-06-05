@@ -25,7 +25,7 @@ try {
     process.env.SPRITE_CONFIG = `./svg-sprite.config.js`
 }
 
-const child = spawn('npm explore @jvmn/groundzero-taskrunner -- npm run dev', {
+const child = spawn('npm explore vhug-tasks -- npm run dev', {
     stdio: 'inherit',
     env: process.env,
     shell: true
