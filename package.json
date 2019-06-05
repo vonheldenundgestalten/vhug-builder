@@ -1,6 +1,6 @@
 {
   "name": "vhug-tasks",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Buildtasks for VHUG",
   "keywords": [
     "taskrunner",
