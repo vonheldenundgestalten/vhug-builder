@@ -34,7 +34,7 @@ try {
     process.env.SPRITE_CONFIG = `./svg-sprite.config.js`
 }
 
-const child = spawn('npm explore @vonheldenundgestalten/vhug-tasks -- npm run release && npm run changelog', {
+const child = spawn('npm explore vhug-tasks -- npm run release && npm run changelog', {
     stdio: 'inherit',
     env: process.env,
     shell: true

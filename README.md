@@ -7,12 +7,9 @@ In charge of running the dev / build / release / deploy / newpattern toolchain f
 *** This package is a dependencie of VHUG BASE, will not work as a standalone ***
 
 ## Installation
-
-1) npm install:
     ```
-    npm install @vonheldenundgestalten/vhug-tasks --save-dev
+    npm install vhug-tasks --save-dev
     ```
-
 2) get all coomand options by running from the terminal:
     ```
     groundzero help
